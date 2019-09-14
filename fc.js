@@ -58,3 +58,5 @@ const zipArg = process.argv.slice(2);
 zipArg.forEach(arg => getCoords(arg));
 
 
+// file execution syntax: node fc.js <zip_code>
+// ex: node fc.js 95131
