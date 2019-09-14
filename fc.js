@@ -40,6 +40,7 @@ function getWeather(long, lat) {
     res.on('data', data => {
       geo += data.toString();
     })
+    // print data
     res.on('end', () => {
       const weather = JSON.parse(geo);
       const { summary, temperature } = weather.currently;
@@ -50,7 +51,6 @@ function getWeather(long, lat) {
 
 
 
-// print data
 // slice needs to be 2!!!
 const zipArg = process.argv.slice(2);
 
