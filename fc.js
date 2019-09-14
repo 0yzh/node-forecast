@@ -28,7 +28,6 @@ function getCoords(zip) {
       // grab the properties we need from data object
       const long = result.records[0].fields.geopoint[0];
       const lat = result.records[0].fields.geopoint[1];
-      const city = result.records[0].fields.city;
       getWeather(Math.ceil(long), Math.ceil(lat));
     });
   });
