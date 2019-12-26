@@ -2,6 +2,6 @@
 
 # Usage
 ```javascript 
-// file execution syntax: node fc.js <zip_code>
-// ex: node fc.js 95131
+- file execution syntax: node fc.js <zip_code>
+- ex: node fc.js 95131
 ```
